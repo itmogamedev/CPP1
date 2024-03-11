@@ -42,10 +42,11 @@ int main()
     std::cout << "Your vector: {";
     for (int i = 0; i < my_vector.size(); i++) {
         if (i == my_vector.size() - 1)
-            std::cout << "'" << my_vector.at(i) << "'}" << std::endl;
+            std::cout << "'" << my_vector.at(i) << "'";
         else
             std::cout << "'" << my_vector.at(i) << "', ";
     }
+    std::cout << "}" << std::endl;
 
     SetConsoleTextAttribute(hConsole, Blue);
     std::cout << "Enter a symbol you wanna item start with: " << std::endl;
