@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\myste\\source\\repos\\miniHW2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E35F5E-4C81-4AF7-840A-B7642F3BBB37}|miniHW2\\miniHW2.vcxproj|C:\\Users\\myste\\source\\repos\\miniHW2\\miniHW2\\miniHW2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4E35F5E-4C81-4AF7-840A-B7642F3BBB37}|miniHW2\\miniHW2.vcxproj|solutionrelative:miniHW2\\miniHW2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "miniHW2.cpp",
+              "DocumentMoniker": "C:\\Users\\myste\\source\\repos\\miniHW2\\miniHW2\\miniHW2.cpp",
+              "RelativeDocumentMoniker": "miniHW2\\miniHW2.cpp",
+              "ToolTip": "C:\\Users\\myste\\source\\repos\\miniHW2\\miniHW2\\miniHW2.cpp",
+              "RelativeToolTip": "miniHW2\\miniHW2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-26T14:37:17.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
