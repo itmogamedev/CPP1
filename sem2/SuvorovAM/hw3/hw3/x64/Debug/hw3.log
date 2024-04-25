@@ -1,0 +1,20 @@
+﻿  hw3.cpp
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:         with
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:         [
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:             T=int
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:         ]
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:         and
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:         [
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:             T=float
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,109): warning C4244:         ]
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:         with
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:         [
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:             T=int
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:         ]
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:         and
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:         [
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:             T=float
+C:\Users\User\Desktop\c++ repos\SFML\hw3\hw3\hw3.cpp(61,75): warning C4244:         ]
+  hw3.vcxproj -> C:\Users\User\Desktop\c++ repos\SFML\hw3\x64\Debug\hw3.exe
