@@ -7,27 +7,27 @@
 
 int main(){
 	std::vector<std::string> srcVec;
-	std::string stroka;
+	std::string line;
 	int n=0;
-	char sym;
+	char symbol;
 	
 	std::cout << "Please enter number of string, and next enter strings"<<std::endl;
 	std::cin >> n;
 
 	
 	for (int i=0; i<n; i++){ 
-	    std::cin >> stroka;
-	    srcVec.push_back(stroka);
+	    std::cin >> line;
+	    srcVec.push_back(line);
 	}
 	
 	std::cout << "Please enter first symbol"<<std::endl;
-	std::cin >> sym;
+	std::cin >> symbol;
 	
     for (std::string x : srcVec) std::cout << x << " "; 
     std::cout<<std::endl;
         
-    int result = count_if(srcVec.begin(), srcVec.end(), [sym] (std::string n) {
-			return sym == n[0];
+    int result = count_if(srcVec.begin(), srcVec.end(), [symbol] (std::string n) {
+			return symbol == n[0];
     });
 
     std::cout << result << std::endl;
