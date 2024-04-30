@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MathLibrary.cpp
+C:\Users\User\Desktop\cpp\sem2\StrizhovDA\MiniHW2\MathLibrary\MathLibrary\MathLibrary.cpp(28,34): warning C4244: return: преобразование "_Ty" в "double", возможна потеря данных
+          with
+          [
+              _Ty=__int64
+          ]
+C:\Users\User\Desktop\cpp\sem2\StrizhovDA\MiniHW2\MathLibrary\MathLibrary\MathLibrary.cpp(54,20): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
+  Создание кода...
+     Создается библиотека C:\Users\User\Desktop\cpp\sem2\StrizhovDA\MiniHW2\MathLibrary\x64\Debug\MathLibrary.lib и объект C:\Users\User\Desktop\cpp\sem2\StrizhovDA\MiniHW2\MathLibrary\x64\Debug\MathLibrary.exp
+  MathLibrary.vcxproj -> C:\Users\User\Desktop\cpp\sem2\StrizhovDA\MiniHW2\MathLibrary\x64\Debug\MathLibrary.dll
