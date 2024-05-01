@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MathLibrary.cpp
+U:\VS\MathLibrary\MathLibrary\MathLibrary.cpp(27,25): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+U:\VS\MathLibrary\MathLibrary\MathLibrary.cpp(30,26): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+U:\VS\MathLibrary\MathLibrary\MathLibrary.cpp(30,53): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+  Создание кода...
+     Создается библиотека U:\VS\MathLibrary\x64\Debug\MathLibrary.lib и объект U:\VS\MathLibrary\x64\Debug\MathLibrary.exp
+  MathLibrary.vcxproj -> U:\VS\MathLibrary\x64\Debug\MathLibrary.dll
