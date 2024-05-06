@@ -1,0 +1,675 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (test SFML.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\myste\source\repos\test SFML\test SFML\Texts.h(16,107): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Texts.h(16,107): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Texts.h(16,107): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Texts.h(16,107): warning C4244:             T=unsigned int
+C:\Users\myste\source\repos\test SFML\test SFML\Texts.h(16,107): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(122,17): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(122,17): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(122,17): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(122,17): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(122,17): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(238,16): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(238,16): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(238,16): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(238,16): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(238,16): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(243,18): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(243,18): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(243,18): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(243,18): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(243,18): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,90): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(308,56): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,101): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(309,67): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,90): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(321,56): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,101): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(322,67): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,93): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(334,59): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,101): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(335,67): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,90): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(347,56): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,101): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(348,67): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,91): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(399,57): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,91): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(426,57): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,90): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(452,56): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(517,79): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(587,81): warning C4244: аргумент: преобразование "_Ty2" в "float", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(587,81): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(587,81): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(587,81): warning C4244:             _Ty2=double
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(587,81): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,91): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(633,57): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,95): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(725,61): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(761,59): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(761,59): warning C4267:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(761,59): warning C4267:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(761,59): warning C4267:             _Ty=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(761,59): warning C4267:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(817,35): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(818,37): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(819,37): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(820,38): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(821,40): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(822,40): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,89): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(956,55): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,89): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1053,55): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1070,84): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1073,86): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1076,85): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1181,90): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1184,92): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1187,91): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1394,27): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1394,19): warning C4305: аргумент: усечение из "double" в "float"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1403,37): warning C4244: аргумент: преобразование "double" в "sf::Uint8", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,90): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1487,56): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,90): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1509,56): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1516,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,91): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1534,57): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1577,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,138): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1647,104): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,142): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1673,108): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,143): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1677,109): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,147): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1703,113): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,140): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1707,106): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,144): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1734,110): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,89): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1774,55): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,88): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:         with
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:             T=int
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:         ]
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:         and
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:         [
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:             T=float
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(1785,54): warning C4244:         ]
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\myste\source\repos\test SFML\test SFML\Images.h(437,1): warning C4715: load_images: значение возвращается не при всех путях выполнения
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(144,1): warning C4715: load_screen: значение возвращается не при всех путях выполнения
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(196,1): warning C4715: waiting_for_input: значение возвращается не при всех путях выполнения
+C:\Users\myste\source\repos\test SFML\test SFML\Main_cycle.h(263,1): warning C4715: to_main: значение возвращается не при всех путях выполнения
+  test SFML.vcxproj -> C:\Users\myste\source\repos\test SFML\x64\Debug\Dinos 2.exe
