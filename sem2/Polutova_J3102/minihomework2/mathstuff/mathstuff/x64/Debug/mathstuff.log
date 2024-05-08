@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  mathstuff.cpp
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(22,35): warning C4244: return: преобразование "_Ty" в "long double", возможна потеря данных
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(22,35): warning C4244:         with
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(22,35): warning C4244:         [
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(22,35): warning C4244:             _Ty=__int64
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(22,35): warning C4244:         ]
+  (компиляция исходного файла "/mathstuff.cpp")
+  
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(25,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/mathstuff.cpp")
+  
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(26,20): warning C4244: инициализация: преобразование "_Ty" в "long double", возможна потеря данных
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(26,20): warning C4244:         with
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(26,20): warning C4244:         [
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(26,20): warning C4244:             _Ty=__int64
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(26,20): warning C4244:         ]
+  (компиляция исходного файла "/mathstuff.cpp")
+  
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(27,21): warning C4244: инициализация: преобразование "_Ty" в "long double", возможна потеря данных
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(27,21): warning C4244:         with
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(27,21): warning C4244:         [
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(27,21): warning C4244:             _Ty=__int64
+D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\mathstuff\mathstuff.cpp(27,21): warning C4244:         ]
+  (компиляция исходного файла "/mathstuff.cpp")
+  
+  mathstuff.vcxproj -> D:\Juliena\learning is knowing\c++\Polutova_J3102\sem2\Polutova_J3102\minihomework2\mathstuff\x64\Debug\mathstuff.lib
