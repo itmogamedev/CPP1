@@ -1,2 +1,0 @@
-﻿  breakpointer.cpp
-F:\cplusplus\Project1\breakpointer\breakpointer\breakpointer.cpp(8,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
