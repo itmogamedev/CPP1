@@ -1,0 +1,6 @@
+﻿  Test.cpp
+Test.obj : error LNK2019: ссылка на неразрешенный внешний символ "double __cdecl Average(class std::vector<int,class std::allocator<int> >)" (?Average@@YANV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции main.
+Test.obj : error LNK2019: ссылка на неразрешенный внешний символ "double __cdecl Median(class std::vector<int,class std::allocator<int> >)" (?Median@@YANV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции main.
+Test.obj : error LNK2019: ссылка на неразрешенный внешний символ "double __cdecl QuadraticMean(class std::vector<int,class std::allocator<int> >)" (?QuadraticMean@@YANV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции main.
+Test.obj : error LNK2019: ссылка на неразрешенный внешний символ "double __cdecl Variance(class std::vector<int,class std::allocator<int> >)" (?Variance@@YANV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции main.
+C:\Study\C++\2_semestr\MiniHW\MiniHW_2\Test\x64\Debug\Test.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
