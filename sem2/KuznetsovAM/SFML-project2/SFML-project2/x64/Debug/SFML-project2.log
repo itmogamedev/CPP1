@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(9,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:         with
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:             T=int
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:         and
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:             T=float
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,86): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:         with
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:             T=int
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:         and
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:             T=float
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(30,73): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:         with
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:             T=int
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:         and
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:             T=float
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,86): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:         with
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:             T=int
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:         ]
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:         and
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:         [
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:             T=float
+C:\Users\alexp\source\repos\SFML-project2\main.cpp(42,73): warning C4244:         ]
+  SFML-project2.vcxproj -> C:\Users\alexp\source\repos\SFML-project2\x64\Debug\SFML-project2.exe
