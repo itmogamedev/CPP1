@@ -1,11 +1,10 @@
-﻿#include <iostream>﻿
+﻿#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <string>
 
 
-int main()
-{
+int main() {
     std::vector <std::string> my_vector;
 
     char symbol;
@@ -22,10 +21,7 @@ int main()
 
     std::cout << "\x1b[31mYour vector: {";
     for (int i = 0; i < my_vector.size(); i++) {
-        if (i == my_vector.size() - 1)
-            std::cout << "'" << my_vector.at(i) << "'";
-        else
-            std::cout << "'" << my_vector.at(i) << "', ";
+        std::cout << "'" << my_vector.at(i) << (i == (my_vector.size() - 1) ? "'" : "', ");
     }
     std::cout << "}" << std::endl;
 
@@ -34,9 +30,8 @@ int main()
     std::cin >> symbol;
 
     std::cout << "\x1b[36mYour symbol: " << symbol << std::endl;
-
-    int result = count_if(my_vector.begin(), my_vector.end(), [&symbol](const std::string& _s)
-        {
+    
+    int result = count_if(my_vector.begin(), my_vector.end(), [&symbol](const std::string& _s) {
             return _s.at(0) == symbol;
         });
 
