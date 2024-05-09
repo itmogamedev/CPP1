@@ -207,7 +207,6 @@ int to_main() {
 	sf::Vector2f movement(0, -200);
 	double start_speed = movement.y, current_speed;
 
-	//
 	sf::Vector2f movement2(500, 0);
 	double start_speed2 = movement2.x, current_speed2;
 
@@ -215,7 +214,6 @@ int to_main() {
 	sp_shop.setPosition(-300, 550);
 	sp_options.setPosition(-300, 650);
 	sp_exit.setPosition(-300, 750);
-	//
 
 	while (window.isOpen())
 	{
@@ -953,7 +951,7 @@ int battle() {
 
 				sf::FloatRect bounds = picked_cards.at(i).first.getSpritemini().getGlobalBounds();
 
-				if (bounds.contains(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y)) {
+				if (picked_cards.at(i).first.getDino()->getHealth() != 0 and bounds.contains(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y)) {
 					if (event.type == sf::Event::MouseButtonPressed) {
 						if (clicked == false and event.mouseButton.button == sf::Mouse::Left) {
 							clock.restart();

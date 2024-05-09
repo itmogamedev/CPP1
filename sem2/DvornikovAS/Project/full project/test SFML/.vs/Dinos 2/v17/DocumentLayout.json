@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{749DD7D5-0849-48E0-BFCC-BB2277489A4D}|test SFML\\test SFML.vcxproj|C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Main_cycle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{749DD7D5-0849-48E0-BFCC-BB2277489A4D}|test SFML\\test SFML.vcxproj|solutionrelative:test SFML\\Main_cycle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{749DD7D5-0849-48E0-BFCC-BB2277489A4D}|test SFML\\test SFML.vcxproj|C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{749DD7D5-0849-48E0-BFCC-BB2277489A4D}|test SFML\\test SFML.vcxproj|solutionrelative:test SFML\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{749DD7D5-0849-48E0-BFCC-BB2277489A4D}|test SFML\\test SFML.vcxproj|C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Images.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{749DD7D5-0849-48E0-BFCC-BB2277489A4D}|test SFML\\test SFML.vcxproj|solutionrelative:test SFML\\Images.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Card.h",
-              "DocumentMoniker": "C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Card.h",
-              "RelativeDocumentMoniker": "test SFML\\Card.h",
-              "ToolTip": "C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Card.h",
-              "RelativeToolTip": "test SFML\\Card.h",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T07:38:10.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Images.h",
-              "DocumentMoniker": "C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Images.h",
-              "RelativeDocumentMoniker": "test SFML\\Images.h",
-              "ToolTip": "C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Images.h",
-              "RelativeToolTip": "test SFML\\Images.h",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAkwH0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T07:29:00.103Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,9 +24,9 @@
               "RelativeDocumentMoniker": "test SFML\\Main_cycle.h",
               "ToolTip": "C:\\Users\\myste\\source\\repos\\test SFML\\test SFML\\Main_cycle.h",
               "RelativeToolTip": "test SFML\\Main_cycle.h",
-              "ViewState": "AQIAAHQDAAAAAAAAAAAkwH4DAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-30T19:57:48.159Z",
+              "WhenOpened": "2024-05-09T03:35:52.132Z",
               "EditorCaption": ""
             }
           ]

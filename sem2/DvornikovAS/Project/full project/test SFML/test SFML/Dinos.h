@@ -32,13 +32,6 @@ protected:
 
 public:
 	Dino();
-	Dino(const Dino& other) {
-		strength = other.strength;
-		agility = other.agility;
-		brain = other.brain;
-		hp = 100;
-	}
-	//Dino& operator=(const Dino& other) = default;
 	virtual int damage(Terrain terrain) = 0;
 	void set_strength(int st) { strength = st; }
 	void set_agility(int ag) { agility = ag; }
@@ -81,7 +74,5 @@ public:
 extern DinoSt dino_ptero, dino_ptero2, dino_trex, dino_trex2;
 extern DinoAg dino_stego, dino_stego2;
 extern DinoBr dino_brahi, dino_brahi2;
-
-void load_dinos();
 
 #endif // !DINOS_H__
