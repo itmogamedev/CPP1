@@ -28,47 +28,37 @@ void updateCatPicture(const  sf::Texture & texture, sf::Sprite & sprite,
 
 
 int main() {
-	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Full da Cat");
+	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Tamagotchi!");
 	window.setFramerateLimit(60);
 
 	sf::Event event;
 
-	sf::Font font;
-	if (!font.loadFromFile("arial.ttf")) {
-		// error...
-	}
-
-	sf::Texture texture1;
-	sf::Texture texture2;
-	if (!texture1.loadFromFile("cat1.png") or !texture2.loadFromFile("cat2.png")) {
+	sf::Texture idle;
+	sf::Texture eating;
+	if (!idle.loadFromFile("cat_idle.png") or !eating.loadFromFile("cat_eat.png")) {
 		// error...
 	}
 	sf::Sprite sprite;
-	sprite.setTexture(texture1);
+	sprite.setTexture(idle);
 	sprite.scale(sf::Vector2f(.01f, .01f));
 	
 	// Game logic
 	Cat cat( 1, 100, 1000, 1000);
-	Info info(cat.getSize(), cat.getMaxSize(), 
-			  cat.getFull(), cat.getMaxFull(),
-			  cat.getHydr(), cat.getMaxHydr(),
-			  cat.getClean(), cat.getMaxClean());
+	Info info(&cat);
 
-	sf::Text text;
-	text.setFont(font);
-	text.setFillColor(sf::Color::Black);
-	text.setString(info.getStr());
-	text.setCharacterSize(35); // in pixels, not points!
-	text.setPosition(window.getSize().x/2, window.getSize().y/10);
+	
 
 	std::chrono::time_point<std::chrono::steady_clock> startTime
 		= std::chrono::high_resolution_clock::now();
+	std::chrono::duration<float> duration;
 
 	while (window.isOpen())	{
 		if (cat.isDead()) // TODO Окно поражения 
 			exit(0);
 		if (cat.isSuccess())
 			exit(0); // TODO Окно победы 
+
+		duration = std::chrono::high_resolution_clock::now() - startTime;
 
 		cat.live();
 
@@ -77,10 +67,8 @@ int main() {
 
 		while (window.pollEvent(event)) {
 
-			std::chrono::duration<float> duration = 
-				std::chrono::high_resolution_clock::now() - startTime;
 			if (duration.count() > 1) {
-				sprite.setTexture(texture1);
+				sprite.setTexture(idle);
 			}
 
 			if (event.type == sf::Event::Closed) window.close();
@@ -90,30 +78,27 @@ int main() {
 
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num1)) {
 					cat.increaseFull(50);
-					updateCatPicture(texture2, sprite, startTime);
+					updateCatPicture(eating, sprite, startTime);
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num2)) {
 					cat.increaseHydr(50);
-					updateCatPicture(texture2, sprite, startTime);
+					updateCatPicture(eating, sprite, startTime);
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num3)) {
 					cat.increaseClean(50);
-					updateCatPicture(texture2, sprite, startTime);
+					updateCatPicture(eating, sprite, startTime);
 				}
 			}
 		}
 
 
-		Info info(cat.getSize(), cat.getMaxSize(),
-			cat.getFull(), cat.getMaxFull(),
-			cat.getHydr(), cat.getMaxHydr(),
-			cat.getClean(), cat.getMaxClean());
-		text.setString(info.getStr());
+		info.update();
+		//text.setString(info.getStr());
 
 		// Выполняем необходимые действия по отрисовке
 		window.clear(sf::Color::White);
 		window.draw(sprite);
-		window.draw(text);
+		//window.draw(text);
 		window.display();
 	}
 

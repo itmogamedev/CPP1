@@ -3,22 +3,15 @@
 #include <vector>
 #include <string>
 #include <stdarg.h>
+#include "cat.h"
 
 class Info {
 private:
 	std::vector<std::pair<int, int>> values;
+    Cat* cat_;
 
 public:
-	Info(int n, ...) {
-        int result = 0;
-        va_list f;         //указатель va_list
-        va_start(f, n);    // устанавливаем указатель
-        for (int i = 0; i < n; i+=2) {
-            values.push_back(
-                std::make_pair(va_arg(f, int), va_arg(f, int)));  // получаем значение текущего параметра типа int
-        }
-        va_end(f); // завершаем обработку параметров
-	}
+    Info(Cat* cat) { cat_ = cat; }
 
     std::string getStr() {
         std::string str = "";
@@ -28,4 +21,16 @@ public:
         }
         return str;
     }
+
+    void update();
 };
+
+void Info::update()
+{
+    values.clear();
+    
+    values.push_back(std::make_pair(cat_->getSize(), cat_->getMaxSize()));
+    values.push_back(std::make_pair(cat_->getFull(), cat_->getMaxFull()));
+    values.push_back(std::make_pair(cat_->getHydr(), cat_->getMaxHydr()));
+    values.push_back(std::make_pair(cat_->getClean(), cat_->getMaxClean()));
+}
