@@ -3,6 +3,7 @@
 #include "info.h"
 #include "iostream"
 #include "chrono"
+#include "MainMenu.h"
 
 // «адача: сделать игру тамагочи про котика.
 // ≈го нужно кормить, поить, убирать.
@@ -30,6 +31,10 @@ void updateCatPicture(const  sf::Texture & texture, sf::Sprite & sprite,
 int main() {
 	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Tamagotchi!");
 	window.setFramerateLimit(60);
+	MainMenu mainMenu(&window);
+
+	if (!mainMenu.render()) return 0;
+
 
 	sf::Event event;
 
