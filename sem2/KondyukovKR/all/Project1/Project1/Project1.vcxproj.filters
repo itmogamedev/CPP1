@@ -27,4 +27,36 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="cat_eat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="cat_idle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="chin_eat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="chin_idle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="dog_eat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="dog_idle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="lose_menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause_menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="win_menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
