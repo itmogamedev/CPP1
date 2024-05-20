@@ -128,7 +128,7 @@ int main() {
 			if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape) {
 				if (game.status == gameStatus::PLAY)
 					game.pause();
-				else
+				else if (game.status == gameStatus::PAUSE)
 					game.resume();
 			}
 		}
