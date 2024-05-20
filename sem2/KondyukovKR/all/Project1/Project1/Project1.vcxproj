@@ -131,10 +131,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cat.h" />
     <ClInclude Include="info.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="progressBar.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="cat_eat.png" />
@@ -144,9 +147,16 @@
     <Image Include="dog_eat.png" />
     <Image Include="dog_idle.png" />
     <Image Include="lose_menu.png" />
+    <Image Include="menu_background.png" />
+    <Image Include="menu_play.png" />
+    <Image Include="menu_quit.png" />
     <Image Include="pause.png" />
     <Image Include="pause_menu.png" />
     <Image Include="win_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\.gitignore" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

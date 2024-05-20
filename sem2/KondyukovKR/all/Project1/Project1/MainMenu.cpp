@@ -50,3 +50,18 @@ bool MainMenu::render()
 		window_->display();
 	}
 }
+
+int MainMenu::choosePet()
+{
+	isOn = true;
+	optionCat.loadFromFile("cat_idle.png"); optionDog.loadFromFile("dog_idle.png"); 
+	optionChin.loadFromFile("chin_idle.png");
+	cat.setTexture(optionCat);
+
+	while (isOn)
+	{
+
+	}
+
+	return 0;
+}

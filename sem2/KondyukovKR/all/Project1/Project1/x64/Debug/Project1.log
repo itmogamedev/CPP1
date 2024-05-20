@@ -1,12 +1,61 @@
-﻿  main.cpp
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:         with
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:         [
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:             T=unsigned int
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:         ]
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:         with
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:         [
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:             T=unsigned int
-F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:         ]
-  Project1.vcxproj -> F:\cplusplus\Project1\Project1\x64\Debug\Project1.exe
+﻿  MainMenu.cpp
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,76): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,76): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,76): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,76): warning C4244:             T=unsigned int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,76): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,44): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,44): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,44): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,44): warning C4244:             T=unsigned int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(10,44): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,72): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,72): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,72): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,72): warning C4244:             T=unsigned int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,72): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,44): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,44): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,44): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,44): warning C4244:             T=unsigned int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(11,44): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:             T=float
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:         and
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:             T=int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,59): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:             T=float
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:         and
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:             T=int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(27,37): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:             T=float
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:         and
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:             T=int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,59): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:         with
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:             T=float
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:         ]
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:         and
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:         [
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:             T=int
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(33,37): warning C4244:         ]
+  main.cpp
+  Создание кода...
+C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\Project1\MainMenu.cpp(52): warning C4715: MainMenu::render: значение возвращается не при всех путях выполнения
+  Project1.vcxproj -> C:\Users\Artem_Step\Desktop\Ирина папка очень важная\ИТМО\геймдев\2 сем\плюси\CppProjects\sem2\KondyukovKR\all\Project1\x64\Debug\Project1.exe
