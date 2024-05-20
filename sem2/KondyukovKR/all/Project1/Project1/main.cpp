@@ -5,6 +5,7 @@
 #include "chrono"
 #include "MainMenu.h"
 #include "progressBar.h"
+#include "Button.h"
 
 // Задача: сделать игру тамагочи про котика.
 // Его нужно кормить, поить, убирать.
@@ -20,7 +21,7 @@
 // * Помыть
 // * Напоить
 
-void updateCatPicture(const  sf::Texture & texture, sf::Sprite & sprite,
+void updateCatPicture(const  sf::Texture& texture, sf::Sprite& sprite,
 	std::chrono::time_point<std::chrono::steady_clock>& startTime) {
 	sprite.setTexture(texture);
 	startTime = std::chrono::high_resolution_clock::now();
@@ -95,11 +96,11 @@ int main() {
 		sprite.setScale(sf::Vector2f(float(pet.getSize()) / 100,
 			float(pet.getSize()) / 100));
 
-		while (window.pollEvent(event)) {
+		if (duration.count() > 1) {
+			sprite.setTexture(idle);
+		}
 
-			if (duration.count() > 1) {
-				sprite.setTexture(idle);
-			}
+		while (window.pollEvent(event)) {
 
 			if (event.type == sf::Event::Closed) window.close();
 			if (event.type == sf::Event::KeyPressed) {
@@ -127,7 +128,7 @@ int main() {
 		hunger.setProgress(pet.getFull());
 		clean.setProgress(pet.getClean());
 
-		sprite.move(sf::Vector2f((prevScale - sprite.getScale().x) * idle.getSize().x / 23333, (prevScale - sprite.getScale().y) * idle.getSize().y / 2));
+		sprite.move(sf::Vector2f((prevScale - sprite.getScale().x) * idle.getSize().x / 2, (prevScale - sprite.getScale().y) * idle.getSize().y / 2));
 
 		// Выполняем необходимые действия по отрисовке
 		window.clear(sf::Color::White);

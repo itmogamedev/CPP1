@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  Button.cpp
+  main.cpp
 C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
 C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244:         with
 C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244:         [
@@ -25,14 +26,15 @@ C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\
 C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(56,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
   (компиляция исходного файла "main.cpp")
   
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(59,66): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(59,66): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(59,66): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(59,66): warning C4244:             T=unsigned int
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(59,66): warning C4244:         ]
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(59,40): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(68,34): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(72,65): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(72,35): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(60,67): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(60,67): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(60,67): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(60,67): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(60,67): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(60,40): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(69,34): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(73,65): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(73,35): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Создание кода...
   Project1.vcxproj -> C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\x64\Debug\Project1.exe
