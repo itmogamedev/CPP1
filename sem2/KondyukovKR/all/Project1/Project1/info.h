@@ -8,10 +8,10 @@
 class Info {
 private:
 	std::vector<std::pair<int, int>> values;
-    Cat* cat_;
+    Pet* cat_;
 
 public:
-    Info(Cat* cat) { cat_ = cat; }
+    Info(Pet* cat) { cat_ = cat; }
 
     std::string getStr() {
         std::string str = "";

@@ -4,45 +4,54 @@
 class ProgressBar
 {
 public:
-	ProgressBar(sf::Color fill, sf::Color outline, int thickness);
+	ProgressBar(sf::RenderWindow* window, int max, sf::Color fill);
 	~ProgressBar();
+	void draw();
 	void setProgress(int value);
-	void setText(std::string st);
+	void setText(std::string file);
 	void setPos(int x, int y);
 
 private:
-	sf::RectangleShape bar;
+	sf::RenderWindow* window_;
+	sf::RectangleShape bar_;
+	sf::RectangleShape outline_;
+	sf::Texture textTexture;
+	sf::Sprite text_;
 };
 
-ProgressBar::ProgressBar(sf::Color fill, sf::Color outline, int thickness)
+ProgressBar::ProgressBar(sf::RenderWindow* window, int max, sf::Color fill)
 {
-	bar.setFillColor(fill);
-	bar.setOutlineThickness(thickness);
-	bar.setOutlineColor(outline);
+	window_ = window;
+	outline_.setSize(sf::Vector2f(max / 3, 10));
+	bar_.setFillColor(fill);
+	outline_.setOutlineThickness(1);
+	outline_.setOutlineColor(sf::Color());
 }
 
-ProgressBar::~ProgressBar()
+ProgressBar::~ProgressBar(){}
+
+inline void ProgressBar::draw()
 {
+	window_->draw(outline_);
+	window_->draw(bar_);
+	window_->draw(text_);
 }
 
 inline void ProgressBar::setProgress(int value)
 {
-	bar.setSize(sf::Vector2f(value, 10));
+	bar_.setSize(sf::Vector2f(value / 3, 10));
 }
 
-inline void ProgressBar::setText(std::string st)
+inline void ProgressBar::setText(std::string file)
 {
-	sf::Font font;
-	font.loadFromFile("arial.ttf");
-	sf::Text text;
-	text.setFont(font);
-	text.setFillColor(sf::Color::Black);
-	text.setString(st);
-	text.setCharacterSize(35); // in pixels, not points!
-	text.setPosition(bar.getPosition());
+	textTexture.loadFromFile(file);
+	text_.setTexture(textTexture);
+	text_.setColor(sf::Color::Black);
+	text_.setPosition(bar_.getPosition().x, bar_.getPosition().y + 15);
 }
 
 inline void ProgressBar::setPos(int x, int y)
 {
-	bar.setPosition(x, y);
+	outline_.setPosition(x, y);
+	bar_.setPosition(x, y);
 }

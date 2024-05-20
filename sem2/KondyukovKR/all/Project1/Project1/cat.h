@@ -1,7 +1,7 @@
 #pragma once
 
 
-class Cat {
+class Pet {
 private:
 	int size;
 	const int maxSize;
@@ -14,7 +14,7 @@ private:
 	const int maxClean;
 
 public:
-	Cat(int _speedGrowth,
+	Pet(int _speedGrowth,
 		int _full,
 		int _hydr,
 		int _clean
@@ -23,7 +23,7 @@ public:
 		full{ _full },
 		hydr{ _hydr },
 		clean{ _clean },
-		maxSize {100},
+		maxSize {50},
 		maxFull {1000},
 		maxHydr {1000},
 		maxClean {1000}
@@ -49,11 +49,11 @@ public:
 	
 	void catGrow() {
 		if (maxFull <= full) {
-			full = 50;
+			full = maxFull / 2;
 			increaseSize();
 		}
 		else if (0 == full) {
-			full = 99;
+			full = maxFull / 2;
 			decreaseSize();
 		}
 	}

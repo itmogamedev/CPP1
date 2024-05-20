@@ -88,6 +88,15 @@
     <Image Include="choose_menu1.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+    <Image Include="clean_bar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="full_bar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="hydr_bar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\.gitignore">
