@@ -1,0 +1,12 @@
+﻿  main.cpp
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,65): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,65): warning C4244:         with
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,65): warning C4244:         [
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,65): warning C4244:             T=unsigned int
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,65): warning C4244:         ]
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,41): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,41): warning C4244:         with
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,41): warning C4244:         [
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,41): warning C4244:             T=unsigned int
+D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\Project1\main.cpp(148,41): warning C4244:         ]
+  Project1.vcxproj -> D:\ИТМО Работы\После перевода на ШРВ\Прога\CPlusPlus\CLion_Projects\SheykoOA_HomeWorks\cpp\sem2\SheykoOA_Homework\homework4\Project1\x64\Debug\Project1.exe
