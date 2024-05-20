@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\progressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\progressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\cat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\info.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\info.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\progressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\progressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +38,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\MainMenu.cpp",
+              "RelativeDocumentMoniker": "Project1\\MainMenu.cpp",
+              "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\MainMenu.cpp",
+              "RelativeToolTip": "Project1\\MainMenu.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T21:06:14.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Button.cpp",
+              "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.cpp",
+              "RelativeDocumentMoniker": "Project1\\Button.cpp",
+              "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.cpp",
+              "RelativeToolTip": "Project1\\Button.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T21:00:08.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Button.h",
               "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.h",
               "RelativeDocumentMoniker": "Project1\\Button.h",
               "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.h",
               "RelativeToolTip": "Project1\\Button.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-20T20:48:56.368Z",
               "EditorCaption": ""
@@ -53,14 +87,14 @@
               "RelativeDocumentMoniker": "Project1\\progressBar.h",
               "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\progressBar.h",
               "RelativeToolTip": "Project1\\progressBar.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-20T12:29:19.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "info.h",
               "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\info.h",
               "RelativeDocumentMoniker": "Project1\\info.h",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "cat.h",
               "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\cat.h",
               "RelativeDocumentMoniker": "Project1\\cat.h",
@@ -92,7 +126,7 @@
               "RelativeDocumentMoniker": "Project1\\main.cpp",
               "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\main.cpp",
               "RelativeToolTip": "Project1\\main.cpp",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGUAAAAAAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAIgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-27T08:00:43.23Z",
               "EditorCaption": ""

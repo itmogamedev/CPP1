@@ -12,14 +12,8 @@
 // Он будет расти и расти пока не заполнит весь экран.
 
 // TODO
-// Кнопки [кормить, поить, мыть]
-// центровать
-
-// Управление
-// Рисовать кнопки на экране:
-// * Покормить
-// * Помыть
-// * Напоить
+// Кнопки [кормить, поить, мыть, пауза]
+// Меню выигрыша и поражения
 
 void updateCatPicture(const  sf::Texture& texture, sf::Sprite& sprite,
 	std::chrono::time_point<std::chrono::steady_clock>& startTime) {
@@ -39,6 +33,7 @@ int main() {
 	sf::Texture idle;
 	sf::Texture eating;
 
+	// Pet sprite
 	switch (mainMenu.choosePet()) {
 	case 0: exit(0);
 	case 1:
@@ -61,7 +56,6 @@ int main() {
 	sprite.scale(sf::Vector2f(.01f, .01f));
 	float prevScale = sprite.getScale().x;
 	
-	// Game logic
 	Pet pet( 1, 100, 1000, 1000);
 
 	// Progress bars
@@ -77,51 +71,54 @@ int main() {
 	hydr.setPos(window.getSize().x * 0.6, window.getSize().y / 3);
 	hydr.setText("hydr_bar.png");
 
+	// Buttons
+	Button cleanButton(&window, "clean.png"); cleanButton.setPosition(window.getSize().x * 0.40, window.getSize().y / 3 * 2);
+	Button feedButton(&window, "feed.png"); feedButton.setPosition(window.getSize().x * 0.60, window.getSize().y / 3 * 2);
+	Button waterButton(&window, "water.png"); waterButton.setPosition(window.getSize().x * 0.80, window.getSize().y / 3 * 2);
+	int choice = 0;
+
 	std::chrono::time_point<std::chrono::steady_clock> startTime
 		= std::chrono::high_resolution_clock::now();
 	std::chrono::duration<float> duration;
 
+	// Main Loop
 	while (window.isOpen())	{
 		prevScale = sprite.getScale().x;
 
-		if (pet.isDead()) // TODO Окно поражения 
+		if (pet.isDead())
 			exit(0);
 		if (pet.isSuccess())
-			exit(0); // TODO Окно победы 
+			exit(0);
 
+		// Update data
 		duration = std::chrono::high_resolution_clock::now() - startTime;
-
+		cleanButton.setColor(sf::Color::Black);
+		feedButton.setColor(sf::Color::Black);
+		waterButton.setColor(sf::Color::Black);
+		choice = 0;
 		pet.live();
 
 		sprite.setScale(sf::Vector2f(float(pet.getSize()) / 100,
 			float(pet.getSize()) / 100));
 
-		if (duration.count() > 1) {
+		if (duration.count() > 2) {
 			sprite.setTexture(idle);
 		}
 
-		while (window.pollEvent(event)) {
+		if (window.pollEvent(event) && event.type == sf::Event::Closed) window.close();
 
-			if (event.type == sf::Event::Closed) window.close();
-			if (event.type == sf::Event::KeyPressed) {
-				// Получаем нажатую клавишу - выполняем соответствующее действие
-				if (event.key.code == sf::Keyboard::Escape) window.close();
+		// Collisions
+		if (cleanButton.isHovering()) { cleanButton.setColor(sf::Color(192, 223, 208)); choice = 1; }
+		if (feedButton.isHovering()) { feedButton.setColor(sf::Color(246, 184, 193)); choice = 2; }
+		if (waterButton.isHovering()) { waterButton.setColor(sf::Color(153, 200, 236)); choice = 3; }
 
-				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num1)) {
-					pet.increaseFull(100);
-					updateCatPicture(eating, sprite, startTime);
-				}
-				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num2)) {
-					pet.increaseHydr(100);
-					updateCatPicture(eating, sprite, startTime);
-				}
-				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num3)) {
-					pet.increaseClean(100);
-					updateCatPicture(eating, sprite, startTime);
-				}
-			}
+		// If Mouse pressed
+		if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+		{
+			if (choice == 1) { pet.increaseClean(100); updateCatPicture(eating, sprite, startTime); }
+			if (choice == 2) { pet.increaseHydr(100); updateCatPicture(eating, sprite, startTime); }
+			if (choice == 3) { pet.increaseFull(100); updateCatPicture(eating, sprite, startTime); }
 		}
-
 
 		// bars update
 		hydr.setProgress(pet.getHydr());
@@ -130,12 +127,11 @@ int main() {
 
 		sprite.move(sf::Vector2f((prevScale - sprite.getScale().x) * idle.getSize().x / 2, (prevScale - sprite.getScale().y) * idle.getSize().y / 2));
 
-		// Выполняем необходимые действия по отрисовке
+		// Отрисовка
 		window.clear(sf::Color::White);
 		window.draw(sprite);
-		hydr.draw();
-		clean.draw();
-		hunger.draw();
+		hydr.draw(); clean.draw(); hunger.draw();
+		cleanButton.draw(); feedButton.draw(); waterButton.draw();
 		window.display();
 	}
 

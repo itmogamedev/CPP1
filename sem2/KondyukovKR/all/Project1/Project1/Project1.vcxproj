@@ -150,9 +150,11 @@
     <Image Include="choose_menu_cat.png" />
     <Image Include="choose_menu_chin.png" />
     <Image Include="choose_menu_dog.png" />
+    <Image Include="clean.png" />
     <Image Include="clean_bar.png" />
     <Image Include="dog_eat.png" />
     <Image Include="dog_idle.png" />
+    <Image Include="feed.png" />
     <Image Include="full_bar.png" />
     <Image Include="hydr_bar.png" />
     <Image Include="lose_menu.png" />
@@ -161,6 +163,7 @@
     <Image Include="menu_quit.png" />
     <Image Include="pause.png" />
     <Image Include="pause_menu.png" />
+    <Image Include="water.png" />
     <Image Include="win_menu.png" />
   </ItemGroup>
   <ItemGroup>

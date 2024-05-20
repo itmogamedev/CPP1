@@ -103,6 +103,15 @@
     <Image Include="hydr_bar.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+    <Image Include="clean.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="feed.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="water.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\.gitignore">
