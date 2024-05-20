@@ -144,6 +144,10 @@
     <Image Include="cat_idle.png" />
     <Image Include="chin_eat.png" />
     <Image Include="chin_idle.png" />
+    <Image Include="choose_menu1.png" />
+    <Image Include="choose_menu_cat.png" />
+    <Image Include="choose_menu_chin.png" />
+    <Image Include="choose_menu_dog.png" />
     <Image Include="dog_eat.png" />
     <Image Include="dog_idle.png" />
     <Image Include="lose_menu.png" />

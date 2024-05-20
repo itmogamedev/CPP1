@@ -76,6 +76,18 @@
     <Image Include="menu_quit.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+    <Image Include="choose_menu_cat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu_chin.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu_dog.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\.gitignore">

@@ -31,18 +31,30 @@ void updateCatPicture(const  sf::Texture & texture, sf::Sprite & sprite,
 int main() {
 	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Tamagotchi!");
 	window.setFramerateLimit(60);
-	MainMenu mainMenu(&window);
+	sf::Event event;
+	MainMenu mainMenu(&window, &event);
 
 	if (!mainMenu.render()) return 0;
 
-
-	sf::Event event;
-
 	sf::Texture idle;
 	sf::Texture eating;
-	if (!idle.loadFromFile("cat_idle.png") or !eating.loadFromFile("cat_eat.png")) {
-		// error...
+
+	switch (mainMenu.choosePet()) {
+	case 0: return 0;
+	case 1:
+		idle.loadFromFile("cat_idle.png");
+		eating.loadFromFile("cat_eat.png");
+		break;
+	case 2: 
+		idle.loadFromFile("dog_idle.png");
+		eating.loadFromFile("dog_eat.png");
+		break;
+	case 3: 
+		idle.loadFromFile("chin_idle.png");
+		eating.loadFromFile("chin_eat.png");
+		break;
 	}
+
 	sf::Sprite sprite;
 	sprite.setTexture(idle);
 	sprite.scale(sf::Vector2f(.01f, .01f));
