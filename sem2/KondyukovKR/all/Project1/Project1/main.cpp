@@ -56,11 +56,12 @@ int main() {
 
 	sf::Sprite sprite;
 	sprite.setTexture(idle);
+	sprite.setPosition(window.getSize().x * 0.25, window.getSize().y / 2);
 	sprite.scale(sf::Vector2f(.01f, .01f));
+	float prevScale = sprite.getScale().x;
 	
 	// Game logic
 	Pet pet( 1, 100, 1000, 1000);
-	Info info(&pet);
 
 	// Progress bars
 	ProgressBar clean(&window, pet.getMaxClean(), sf::Color(192, 223, 208));
@@ -80,6 +81,8 @@ int main() {
 	std::chrono::duration<float> duration;
 
 	while (window.isOpen())	{
+		prevScale = sprite.getScale().x;
+
 		if (pet.isDead()) // TODO Окно поражения 
 			exit(0);
 		if (pet.isSuccess())
@@ -119,10 +122,12 @@ int main() {
 		}
 
 
-		//info.update();
+		// bars update
 		hydr.setProgress(pet.getHydr());
 		hunger.setProgress(pet.getFull());
 		clean.setProgress(pet.getClean());
+
+		sprite.move(sf::Vector2f((prevScale - sprite.getScale().x) * idle.getSize().x / 23333, (prevScale - sprite.getScale().y) * idle.getSize().y / 2));
 
 		// Выполняем необходимые действия по отрисовке
 		window.clear(sf::Color::White);
