@@ -24,6 +24,9 @@
     <ClCompile Include="Button.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cat.h">
@@ -39,6 +42,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
@@ -62,9 +68,6 @@
       <Filter>Файлы ресурсов</Filter>
     </Image>
     <Image Include="lose_menu.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="pause.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
     <Image Include="pause_menu.png">
@@ -110,6 +113,21 @@
       <Filter>Файлы ресурсов</Filter>
     </Image>
     <Image Include="water.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="continue.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="exit.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause_bg.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="reload.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>

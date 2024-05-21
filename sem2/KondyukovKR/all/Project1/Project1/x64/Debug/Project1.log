@@ -1,56 +1,79 @@
-﻿  main.cpp
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244:             T=float
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(25,36): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(42,34): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(42,34): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(42,34): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(42,34): warning C4244:             T=float
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(42,34): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(55,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(55,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(56,22): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\progressBar.h(56,19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(55,67): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(55,67): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(55,67): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(55,67): warning C4244:             T=unsigned int
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(55,67): warning C4244:         ]
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(55,40): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(63,34): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(67,65): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(67,35): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(71,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(75,118): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(75,118): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(75,118): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(75,118): warning C4244:             T=unsigned int
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(75,118): warning C4244:         ]
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(75,87): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,115): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,115): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,115): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,115): warning C4244:             T=unsigned int
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,115): warning C4244:         ]
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(76,84): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,118): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,118): warning C4244:         with
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,118): warning C4244:         [
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,118): warning C4244:             T=unsigned int
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,118): warning C4244:         ]
-C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\main.cpp(77,87): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+﻿  PauseMenu.cpp
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,75): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,75): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,75): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,75): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,75): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,43): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,43): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,43): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,43): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(14,43): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,77): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,77): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,77): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,77): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,77): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,45): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,45): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,45): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,45): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(15,45): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,73): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,73): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,73): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,73): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,73): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,45): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,45): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,45): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,45): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(16,45): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,77): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,77): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,77): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,77): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,77): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,45): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,45): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,45): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,45): warning C4244:             T=unsigned int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(17,45): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:             T=float
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:         and
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:             T=int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,61): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:             T=float
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:         and
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:             T=int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(42,38): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:             T=float
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:         and
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:             T=int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,61): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244: аргумент: преобразование "const T" в "T", возможна потеря данных
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:         with
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:             T=float
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:         and
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:         [
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:             T=int
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(48,38): warning C4244:         ]
+C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\Project1\PauseMenu.cpp(65,1): warning C4715: PauseMenu::render: значение возвращается не при всех путях выполнения
   Project1.vcxproj -> C:\Users\pyuchy\source\repos\CppProjects\sem2\KondyukovKR\all\Project1\x64\Debug\Project1.exe

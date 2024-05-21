@@ -6,23 +6,25 @@
 #include "MainMenu.h"
 #include "progressBar.h"
 #include "Button.h"
+#include "PauseMenu.h"
 
 // Задача: сделать игру тамагочи про котика.
 // Его нужно кормить, поить, убирать.
 // Он будет расти и расти пока не заполнит весь экран.
 
 // TODO
-// Кнопки [кормить, поить, мыть, пауза]
+// Кнопки [пауза, рестарт, продолжить, выход]
 // Меню выигрыша и поражения
 
 void updateCatPicture(const  sf::Texture& texture, sf::Sprite& sprite,
-	std::chrono::time_point<std::chrono::steady_clock>& startTime) {
+	std::chrono::time_point<std::chrono::steady_clock>& startTime)
+{
 	sprite.setTexture(texture);
 	startTime = std::chrono::high_resolution_clock::now();
 }
 
-
-int main() {
+int main()
+{
 	sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Tamagotchi!");
 	window.setFramerateLimit(60);
 	sf::Event event;
@@ -34,7 +36,8 @@ int main() {
 	sf::Texture eating;
 
 	// Pet sprite
-	switch (mainMenu.choosePet()) {
+	switch (mainMenu.choosePet())
+	{
 	case 0: exit(0);
 	case 1:
 		idle.loadFromFile("cat_idle.png");
@@ -52,7 +55,7 @@ int main() {
 
 	sf::Sprite sprite;
 	sprite.setTexture(idle);
-	sprite.setPosition(window.getSize().x * 0.25, window.getSize().y / 2);
+	sprite.setPosition(window.getSize().x * 0.2, window.getSize().y / 2);
 	sprite.scale(sf::Vector2f(.01f, .01f));
 	float prevScale = sprite.getScale().x;
 	
@@ -73,9 +76,13 @@ int main() {
 
 	// Buttons
 	Button cleanButton(&window, "clean.png"); cleanButton.setPosition(window.getSize().x * 0.40, window.getSize().y / 3 * 2);
-	Button feedButton(&window, "feed.png"); feedButton.setPosition(window.getSize().x * 0.60, window.getSize().y / 3 * 2);
-	Button waterButton(&window, "water.png"); waterButton.setPosition(window.getSize().x * 0.80, window.getSize().y / 3 * 2);
+	Button waterButton(&window, "water.png"); waterButton.setPosition(window.getSize().x * 0.60, window.getSize().y / 3 * 2);
+	Button feedButton(&window, "feed.png"); feedButton.setPosition(window.getSize().x * 0.80, window.getSize().y / 3 * 2);
+	Button pause(&window, "pause.png"); pause.setPosition(window.getSize().x * 0.9, window.getSize().y * 0.05); pause.setScale(0.5, 0.5);
 	int choice = 0;
+
+	// Pause Menu
+	PauseMenu pauseMenu(&window);
 
 	std::chrono::time_point<std::chrono::steady_clock> startTime
 		= std::chrono::high_resolution_clock::now();
@@ -95,6 +102,7 @@ int main() {
 		cleanButton.setColor(sf::Color::Black);
 		feedButton.setColor(sf::Color::Black);
 		waterButton.setColor(sf::Color::Black);
+		pause.setColor(sf::Color::Black);
 		choice = 0;
 		pet.live();
 
@@ -109,8 +117,9 @@ int main() {
 
 		// Collisions
 		if (cleanButton.isHovering()) { cleanButton.setColor(sf::Color(192, 223, 208)); choice = 1; }
-		if (feedButton.isHovering()) { feedButton.setColor(sf::Color(246, 184, 193)); choice = 2; }
-		if (waterButton.isHovering()) { waterButton.setColor(sf::Color(153, 200, 236)); choice = 3; }
+		if (waterButton.isHovering()) { waterButton.setColor(sf::Color(153, 200, 236)); choice = 2; }
+		if (feedButton.isHovering()) { feedButton.setColor(sf::Color(246, 184, 193)); choice = 3; }
+		if (pause.isHovering()) { pause.setColor(sf::Color::Cyan); choice = 4; }
 
 		// If Mouse pressed
 		if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
@@ -118,6 +127,19 @@ int main() {
 			if (choice == 1) { pet.increaseClean(100); updateCatPicture(eating, sprite, startTime); }
 			if (choice == 2) { pet.increaseHydr(100); updateCatPicture(eating, sprite, startTime); }
 			if (choice == 3) { pet.increaseFull(100); updateCatPicture(eating, sprite, startTime); }
+			if (choice == 4)
+			{ 
+				switch (pauseMenu.render())
+				{
+				case 1:
+					break;
+				case 2:
+					window.close();
+					break;
+				default:
+					break;
+				}
+			}
 		}
 
 		// bars update
@@ -131,7 +153,7 @@ int main() {
 		window.clear(sf::Color::White);
 		window.draw(sprite);
 		hydr.draw(); clean.draw(); hunger.draw();
-		cleanButton.draw(); feedButton.draw(); waterButton.draw();
+		cleanButton.draw(); feedButton.draw(); waterButton.draw(); pause.draw();
 		window.display();
 	}
 

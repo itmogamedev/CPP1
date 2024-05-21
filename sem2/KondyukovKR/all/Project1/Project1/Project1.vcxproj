@@ -133,12 +133,14 @@
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Button.h" />
     <ClInclude Include="cat.h" />
     <ClInclude Include="info.h" />
     <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="PauseMenu.h" />
     <ClInclude Include="progressBar.h" />
   </ItemGroup>
   <ItemGroup>
@@ -152,8 +154,10 @@
     <Image Include="choose_menu_dog.png" />
     <Image Include="clean.png" />
     <Image Include="clean_bar.png" />
+    <Image Include="continue.png" />
     <Image Include="dog_eat.png" />
     <Image Include="dog_idle.png" />
+    <Image Include="exit.png" />
     <Image Include="feed.png" />
     <Image Include="full_bar.png" />
     <Image Include="hydr_bar.png" />
@@ -162,7 +166,9 @@
     <Image Include="menu_play.png" />
     <Image Include="menu_quit.png" />
     <Image Include="pause.png" />
+    <Image Include="pause_bg.png" />
     <Image Include="pause_menu.png" />
+    <Image Include="reload.png" />
     <Image Include="water.png" />
     <Image Include="win_menu.png" />
   </ItemGroup>

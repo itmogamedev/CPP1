@@ -14,7 +14,7 @@ void Button::setColor(sf::Color color)
 
 bool Button::isHovering()
 {
-	if (sf::IntRect(sprite_.getPosition().x, sprite_.getPosition().y, image_.getSize().x, image_.getSize().y)
+	if (sf::IntRect(sprite_.getPosition().x, sprite_.getPosition().y, image_.getSize().x * sprite_.getScale().x, image_.getSize().y * sprite_.getScale().y)
 		.contains(sf::Mouse::getPosition(*window_))) return true;
 	return false;
 }
