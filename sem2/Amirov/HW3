@@ -1,0 +1,41 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <thread>
+#include <chrono>
+#include <locale>
+
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <unistd.h>
+#endif
+
+void shutdownPC() {
+#ifdef _WIN32
+    system("shutdown /s /t 0");
+#elif __APPLE__
+    system("sudo shutdown -h now");
+#else
+    system("poweroff");
+#endif
+}
+
+int main() {
+    std::setlocale(LC_ALL, "Russian");
+
+#ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+#endif
+
+    srand(static_cast<unsigned int>(time(0)));
+
+    int delay = rand() % 51 + 10;
+    std::cout << "Выключение произойдет через " << delay << " секунд..." << std::endl;
+
+    std::this_thread::sleep_for(std::chrono::seconds(delay));
+
+    shutdownPC();
+
+    return 0;
+}
