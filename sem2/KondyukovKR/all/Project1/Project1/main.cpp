@@ -59,16 +59,20 @@ int main()
 
 	// Progress bars
 	ProgressBar clean(&window, pet.getMaxClean(), sf::Color(192, 223, 208));
-	clean.setPos(window.getSize().x * 0.6, window.getSize().y / 6);
+	clean.setPos(window.getSize().x * 0.6, window.getSize().y / 6 - 100);
 	clean.setText("clean_bar.png");
 
+	ProgressBar hydr(&window, pet.getMaxHydr(), sf::Color(153, 200, 236));
+	hydr.setPos(window.getSize().x * 0.6, window.getSize().y / 6 * 2 - 100);
+	hydr.setText("hydr_bar.png");
+
 	ProgressBar hunger(&window, pet.getMaxFull(), sf::Color(246, 184, 193));
-	hunger.setPos(window.getSize().x * 0.6, window.getSize().y / 3 * 1.5);
+	hunger.setPos(window.getSize().x * 0.6, window.getSize().y / 6 * 3 - 150);
 	hunger.setText("full_bar.png");
 
-	ProgressBar hydr(&window, pet.getMaxHydr(), sf::Color(153, 200, 236));
-	hydr.setPos(window.getSize().x * 0.6, window.getSize().y / 3);
-	hydr.setText("hydr_bar.png");
+	ProgressBar size(&window, pet.getMaxSize() * 20, sf::Color(225, 200, 234));
+	size.setPos(window.getSize().x * 0.6, window.getSize().y / 6 * 4 - 200);
+	size.setText("size_bar.png");
 
 	// Buttons
 	Button cleanButton(&window, "clean.png"); cleanButton.setPosition(window.getSize().x * 0.40, window.getSize().y / 3 * 2);
@@ -142,13 +146,14 @@ int main()
 		hydr.setProgress(pet.getHydr());
 		hunger.setProgress(pet.getFull());
 		clean.setProgress(pet.getClean());
+		size.setProgress(pet.getSize() * 20);
 
 		sprite.move(sf::Vector2f((prevScale - sprite.getScale().x) * idle.getSize().x / 2, (prevScale - sprite.getScale().y) * idle.getSize().y / 2));
 
 		// render
 		window.clear(sf::Color::White);
 		window.draw(sprite);
-		hydr.draw(); clean.draw(); hunger.draw();
+		hydr.draw(); clean.draw(); hunger.draw(); size.draw();
 		cleanButton.draw(); feedButton.draw(); waterButton.draw(); pause.draw();
 		window.display();
 	}
