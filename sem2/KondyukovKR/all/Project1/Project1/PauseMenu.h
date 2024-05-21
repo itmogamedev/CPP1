@@ -9,12 +9,13 @@ private:
 	sf::Sprite bg_, menu_, cont_, exit_;
 	int choice_ = 0;
 	bool isOn_ = false;
+	void renderExit();
 
 public:
 	PauseMenu(sf::RenderWindow* window);
 	~PauseMenu() = default;
 	void draw();
 	int render();
-	void winMenu();
-	void loseMenu();
+	void win();
+	void lose();
 };

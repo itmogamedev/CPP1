@@ -1,6 +1,32 @@
 #include "PauseMenu.h"
 #include <iostream>
 
+void PauseMenu::renderExit()
+{
+	exit_.move(sf::Vector2f(-200, 0));
+	while (window_->isOpen())
+	{
+		window_->clear(sf::Color::White);
+		exit_.setColor(sf::Color::Black);
+		choice_ = 0;
+
+		if (sf::IntRect(exit_.getPosition().x, exit_.getPosition().y, 150, 197)
+			.contains(sf::Mouse::getPosition(*window_)))
+		{
+			exit_.setColor(sf::Color::Cyan);
+			choice_ = 1;
+		}
+
+		if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && choice_ == 1)
+			window_->close();
+
+		window_->draw(bg_);
+		window_->draw(menu_);
+		window_->draw(exit_);
+		window_->display();
+	}
+}
+
 PauseMenu::PauseMenu(sf::RenderWindow* window)
 {
 	window_ = window;
@@ -62,10 +88,14 @@ int PauseMenu::render()
 	}
 }
 
-void PauseMenu::winMenu()
+void PauseMenu::win()
 {
+	menuPic_.loadFromFile("win_menu.png");
+	renderExit();
 }
 
-void PauseMenu::loseMenu()
+void PauseMenu::lose()
 {
+	menuPic_.loadFromFile("lose_menu.png");
+	renderExit();
 }

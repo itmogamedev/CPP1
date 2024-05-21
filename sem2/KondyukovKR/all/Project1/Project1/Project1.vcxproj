@@ -168,7 +168,6 @@
     <Image Include="pause.png" />
     <Image Include="pause_bg.png" />
     <Image Include="pause_menu.png" />
-    <Image Include="reload.png" />
     <Image Include="water.png" />
     <Image Include="win_menu.png" />
   </ItemGroup>

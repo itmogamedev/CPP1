@@ -127,9 +127,6 @@
     <Image Include="pause_bg.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
-    <Image Include="reload.png">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\.gitignore">

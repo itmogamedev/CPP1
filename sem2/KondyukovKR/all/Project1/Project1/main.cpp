@@ -12,10 +12,6 @@
 // Его нужно кормить, поить, убирать.
 // Он будет расти и расти пока не заполнит весь экран.
 
-// TODO
-// Кнопки [пауза, рестарт, продолжить, выход]
-// Меню выигрыша и поражения
-
 void updateCatPicture(const  sf::Texture& texture, sf::Sprite& sprite,
 	std::chrono::time_point<std::chrono::steady_clock>& startTime)
 {
@@ -93,9 +89,9 @@ int main()
 		prevScale = sprite.getScale().x;
 
 		if (pet.isDead())
-			exit(0);
+			pauseMenu.lose();
 		if (pet.isSuccess())
-			exit(0);
+			pauseMenu.win();
 
 		// Update data
 		duration = std::chrono::high_resolution_clock::now() - startTime;
@@ -149,7 +145,7 @@ int main()
 
 		sprite.move(sf::Vector2f((prevScale - sprite.getScale().x) * idle.getSize().x / 2, (prevScale - sprite.getScale().y) * idle.getSize().y / 2));
 
-		// Отрисовка
+		// render
 		window.clear(sf::Color::White);
 		window.draw(sprite);
 		hydr.draw(); clean.draw(); hunger.draw();
