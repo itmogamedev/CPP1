@@ -1,0 +1,7 @@
+NAME---STRENGTH---DEXTERITY---INTELLECT---COST---TYPE(0-Plain(STR),1-River(DEX),2-Mountain(INT))
+Tyranosaurus 20 15 15 2500 2
+Brachiosaurus 10 20 10 1200 1
+Diplodocus 10 15 15 1500 2
+Stegosaurus 10 15 15 1000 0
+Velociraptor 10 15 15 1000 1
+Triceraptops 10 15 15 1000 2
