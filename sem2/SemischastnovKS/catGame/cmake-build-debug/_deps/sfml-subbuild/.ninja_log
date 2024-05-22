@@ -1,0 +1,21 @@
+# ninja log v5
+0	14	1716328149556643066	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	79fc6cdea5ead8f7
+0	14	1716328149556643066	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	79fc6cdea5ead8f7
+14	100134	1716328249677554718	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	b68342f6ee029033
+14	100134	1716328249677554718	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	b68342f6ee029033
+100135	101264	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	cbe8067817974fdf
+100135	101264	0	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	cbe8067817974fdf
+101264	101275	1716328250818511656	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	d044f0900614001e
+101264	101275	1716328250818511656	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	d044f0900614001e
+101275	101287	1716328250829912862	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	531d7c881c698159
+101275	101287	1716328250829912862	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	531d7c881c698159
+101287	101299	1716328250842071614	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	f34635ddc149dc8d
+101287	101299	1716328250842071614	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	f34635ddc149dc8d
+101299	101311	1716328250853904073	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	b21f41c122a45752
+101299	101311	1716328250853904073	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	b21f41c122a45752
+101311	101323	1716328250865752782	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	4537a8a8956f6230
+101311	101323	1716328250865752782	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	4537a8a8956f6230
+101323	101339	1716328250882048230	CMakeFiles/sfml-populate-complete	667c43b2551e1bdb
+101323	101339	1716328250882048230	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	667c43b2551e1bdb
+101323	101339	1716328250882048230	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	667c43b2551e1bdb
+101323	101339	1716328250882048230	/Users/elbias/Downloads/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	667c43b2551e1bdb
