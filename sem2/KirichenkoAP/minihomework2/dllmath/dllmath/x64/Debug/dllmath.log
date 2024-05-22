@@ -1,0 +1,15 @@
+﻿  dllmath.cpp
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(8,7): warning C4273: arithmetic_mean: несовместимое связывание dll
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.h(9,29): message : см. предыдущее определение "arithmetic_mean"
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(21,7): warning C4273: median: несовместимое связывание dll
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.h(11,29): message : см. предыдущее определение "median"
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(25,28): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(28,54): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(32,7): warning C4273: quadratic_mean: несовместимое связывание dll
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.h(13,29): message : см. предыдущее определение "quadratic_mean"
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(38,20): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(45,7): warning C4273: dispersion: несовместимое связывание dll
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.h(15,29): message : см. предыдущее определение "dispersion"
+C:\Users\130\Desktop\dllmath\dllmath\dllmath.cpp(58,20): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     Создается библиотека C:\Users\130\Desktop\dllmath\x64\Debug\dllmath.lib и объект C:\Users\130\Desktop\dllmath\x64\Debug\dllmath.exp
+  dllmath.vcxproj -> C:\Users\130\Desktop\dllmath\x64\Debug\dllmath.dll

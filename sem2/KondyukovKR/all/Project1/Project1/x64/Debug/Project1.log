@@ -1,0 +1,12 @@
+﻿  main.cpp
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:         with
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:         [
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:             T=unsigned int
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,59): warning C4244:         ]
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:         with
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:         [
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:             T=unsigned int
+F:\cplusplus\Project1\Project1\Project1\main.cpp(62,37): warning C4244:         ]
+  Project1.vcxproj -> F:\cplusplus\Project1\Project1\x64\Debug\Project1.exe
