@@ -146,7 +146,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cat.h" />
+    <ClInclude Include="tam.h" />
+    <ClInclude Include="button.h" />
     <ClInclude Include="info.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

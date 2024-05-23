@@ -1,60 +1,23 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <chrono>
-#include "cat.h"
+#include "windows.h"
+#include "tam.h"
 #include "info.h"
+#include "button.h"
 
 
-class Button {
-private:
-    sf::RectangleShape shape;
-    sf::Text text;
 
-public:
-    Button(const sf::Vector2f& size, const sf::Vector2f& position, const sf::Color& color, const std::string& str, sf::Font& font) 
-    {
-        shape.setSize(size);
-        shape.setPosition(position);
-        shape.setFillColor(color);
-        shape.setOutlineColor(sf::Color::White);
-        shape.setOutlineThickness(1);
-
-        text.setFont(font);
-        text.setString(str);
-        text.setCharacterSize(32);
-        text.setFillColor(sf::Color::White);
-        text.setOutlineColor(sf::Color::Black);
-        text.setOutlineThickness(1);
-        text.setPosition(
-            position.x + (size.x - text.getLocalBounds().width) / 2,
-            position.y + (size.y - text.getLocalBounds().height) / 2
-        );
-    }
-
-    void draw(sf::RenderWindow& window) 
-    {
-        window.draw(shape);
-        window.draw(text);
-    }
-
-    bool isClicked(const sf::Vector2i& mousePos) 
-    {
-        return shape.getGlobalBounds().contains(static_cast<sf::Vector2f>(mousePos));
-    }
-};
-
-enum class PetType { cat, dog, chinchilla };
-
-PetType choosePet(sf::RenderWindow& window, sf::Font& font) 
+enum class UTam { cat, dog, chin };
+UTam chTam(sf::RenderWindow& window, sf::Font& font) 
 {
-    int x = window.getSize().x / 2 - 100;
-    int y = window.getSize().y / 10;
-    Button catButton({ 200, 50 }, { 1000, 300 }, sf::Color(0, 0, 0), "CAT", font);
-    Button dogButton({ 200, 50 }, { 1000, 400 }, sf::Color(0, 0, 0), "DOG", font);
-    Button chinchillaButton({ 200, 50 }, { 1000, 500 }, sf::Color(0, 0, 0), "CHINCHILLA", font);
+    Button catB({ 200, 50 }, { 1000, 300 }, sf::Color(50, 50, 50), "CAT", font);
+    Button dogB({ 200, 50 }, { 1000, 400 }, sf::Color(50, 50, 50), "DOG", font);
+    Button chinB({ 200, 50 }, { 1000, 500 }, sf::Color(50, 50, 50), "CHINCHILLA", font);
 
-    while (true) 
+    while (window.isOpen()) 
     {
+        sf::Vector2i mPos = sf::Mouse::getPosition(window);
         sf::Event event;
         while (window.pollEvent(event)) 
         {
@@ -64,30 +27,51 @@ PetType choosePet(sf::RenderWindow& window, sf::Font& font)
             {
                 if (event.mouseButton.button == sf::Mouse::Left) 
                 {
-                    sf::Vector2i mousePos = sf::Mouse::getPosition(window);
-                    if (catButton.isClicked(mousePos)) return PetType::cat;
-                    if (dogButton.isClicked(mousePos)) return PetType::dog;
-                    if (chinchillaButton.isClicked(mousePos)) return PetType::chinchilla;
+                    if (catB.clicked(mPos)) 
+                    { 
+                        catB.color(sf::Color(30, 30, 30), window);
+                        catB.draw(window);
+                        window.display();
+                        Sleep(500);
+                        return UTam::cat;
+                    }
+                    if (dogB.clicked(mPos)) 
+                    { 
+                        dogB.color(sf::Color(30, 30, 30), window);
+                        dogB.draw(window);
+                        window.display();
+                        Sleep(500);
+                        return UTam::dog; 
+                    }
+                    if (chinB.clicked(mPos))
+                    {
+                        chinB.color(sf::Color(30, 30, 30), window);
+                        chinB.draw(window);
+                        window.display();
+                        Sleep(500);
+                        return UTam::chin;
+
+                    }
                 }
             }
         }
 
-        window.clear(sf::Color::White);
-        catButton.draw(window);
-        dogButton.draw(window);
-        chinchillaButton.draw(window);
+        window.clear(sf::Color(30, 30, 30));
+        catB.draw(window);
+        dogB.draw(window);
+        chinB.draw(window);
         window.display();
     }
 }
 
-void showEnd(sf::RenderWindow& window, sf::Font& font, const std::string& message) 
+void end(sf::RenderWindow& window, sf::Font& font, const std::string& message) 
 {
-    sf::Text endText;
-    endText.setFont(font);
-    endText.setString(message);
-    endText.setCharacterSize(150);
-    endText.setFillColor(sf::Color::Black);
-    endText.setPosition(window.getSize().x / 2, window.getSize().y / 2);
+    sf::Text endT;
+    endT.setFont(font);
+    endT.setString(message);
+    endT.setCharacterSize(150);
+    endT.setFillColor(sf::Color::White);
+    endT.setPosition(window.getSize().x / 2, window.getSize().y / 2);
 
     while (window.isOpen()) 
     {
@@ -97,18 +81,18 @@ void showEnd(sf::RenderWindow& window, sf::Font& font, const std::string& messag
             if (event.type == sf::Event::Closed) window.close();
         }
 
-        window.clear(sf::Color::White);
-        window.draw(endText);
+        window.clear(sf::Color(30, 30, 30));
+        window.draw(endT);
         window.display();
     }
 }
 
-void updateCatPicture(const sf::Texture& texture, sf::Sprite& sprite,          
-    std::chrono::time_point<std::chrono::steady_clock>& startTime, float& textureDuration) 
+void upTamPic(const sf::Texture& tex, sf::Sprite& spr,          
+    std::chrono::time_point<std::chrono::steady_clock>& strTime, float& texDur) 
 {
-    sprite.setTexture(texture);
-    startTime = std::chrono::high_resolution_clock::now();
-    textureDuration = 0.25f;
+    spr.setTexture(tex);
+    strTime = std::chrono::high_resolution_clock::now();
+    texDur = 0.25f;
 }                                                                              
 
 
@@ -127,41 +111,41 @@ int main()
     sf::Font font;
     if (!font.loadFromFile("arial.ttf")) {}                                                                      
 
-    PetType petType = choosePet(window, font);
+    UTam UTam = chTam(window, font);
 
-    sf::Texture texture1, texture2;
-    if (petType == PetType::cat) 
+    sf::Texture tex1, tex2;
+    if (UTam == UTam::cat) 
     {                  
-        texture1.loadFromFile("cat1.png");
-        texture2.loadFromFile("cat2.png");
+        tex1.loadFromFile("cat1.png");
+        tex2.loadFromFile("cat2.png");
     }
-    else if (petType == PetType::dog) 
+    else if (UTam == UTam::dog) 
     {
-        texture1.loadFromFile("dog1.png");
-        texture2.loadFromFile("dog2.png");
+        tex1.loadFromFile("dog1.png");
+        tex2.loadFromFile("dog2.png");
     }
-    else if (petType == PetType::chinchilla) 
+    else if (UTam == UTam::chin) 
     {
-        texture1.loadFromFile("chinchilla1.png");
-        texture2.loadFromFile("chinchilla2.png");
+        tex1.loadFromFile("chin1.png");
+        tex2.loadFromFile("chin2.png");
     }
     sf::Sprite sprite;
-    sprite.setTexture(texture1);
+    sprite.setTexture(tex1);
     sprite.setScale(sf::Vector2f(0.01f, 0.01f)); 
 
 
-    Cat cat(1, 100, 1000, 1000); 
+    Tam tam(1, 100, 1000, 1000); 
     Info info(
         {
-        {"Size", {cat.getSize(), cat.getMaxSize()}},
-        {"Fullness", {cat.getFull(), cat.getMaxFull()}},
-        {"Hydration", {cat.getHydr(), cat.getMaxHydr()}},
-        {"Cleanliness", {cat.getClean(), cat.getMaxClean()}}
+        {"Size", {tam.getSize(), tam.getMaxSize()}},
+        {"Fullness", {tam.getFull(), tam.getMaxFull()}},
+        {"Hydration", {tam.getHydr(), tam.getMaxHydr()}},
+        {"Cleanliness", {tam.getClean(), tam.getMaxClean()}}
         });                      
 
     sf::Text text;    
     text.setFont(font);
-    text.setFillColor(sf::Color::Black);
+    text.setFillColor(sf::Color::White);
     text.setString(info.getStr());
     text.setCharacterSize(35);
     text.setPosition(window.getSize().x / 2, window.getSize().y / 10); 
@@ -178,51 +162,52 @@ int main()
     iFull.setScale(sf::Vector2f(0.8f, 0.8f));
     iHydr.setScale(sf::Vector2f(0.8f, 0.8f));
     iClean.setScale(sf::Vector2f(0.8f, 0.8f));
-
-
     float iOff = 100.0f;
     iSize.setPosition(text.getPosition().x - iOff, text.getPosition().y);
     iFull.setPosition(text.getPosition().x - iOff, text.getPosition().y + 75);
     iHydr.setPosition(text.getPosition().x - iOff, text.getPosition().y + 150);
     iClean.setPosition(text.getPosition().x - iOff, text.getPosition().y + 225);
 
-    Button feedButton({ 200, 50 }, { text.getPosition().x, 500 }, sf::Color(0, 0, 0), "Feed", font);
-    Button washButton({ 200, 50 }, { text.getPosition().x+200, 500 }, sf::Color(0, 0, 0), "Wash", font);
-    Button drinkButton({ 200, 50 }, { text.getPosition().x+400, 500 }, sf::Color(0, 0, 0), "Drink", font);
-    Button pauseButton({ 50, 50 }, { text.getPosition().x+600, 500 }, sf::Color(0, 0, 0), "||", font);
+
+
+    Button feed({ 200, 50 }, { text.getPosition().x, 500 }, sf::Color(50, 50, 50), "Feed", font);
+    Button drink({ 200, 50 }, { text.getPosition().x + 200, 500 }, sf::Color(50, 50, 50), "Drink", font);
+    Button wash({ 200, 50 }, { text.getPosition().x + 400, 500 }, sf::Color(50, 50, 50), "Wash", font);
+    Button pause({ 50, 50 }, { text.getPosition().x + 600, 500 }, sf::Color(50, 50, 50), "||", font);
+
 
 
     std::chrono::time_point<std::chrono::steady_clock> startTime = std::chrono::high_resolution_clock::now();
-    float textureDuration = 0.0f;
+    float texDur = 0.0f;
                                                                                                              
     while (window.isOpen()) 
     {
         if (!isPaused) 
         {
-            if (cat.isDead()) 
+            if (tam.isDead()) 
             {
-                showEnd(window, font, "YOU LOSED!(((");
+                end(window, font, "YOU LOSED!(((");
                 return 0;
             }
-            if (cat.isSuccess()) 
+            if (tam.isSuccess()) 
             {
-                showEnd(window, font, "YOU WON!)))");
+                end(window, font, "YOU WON!)))");
                 return 0;
             }
 
-            cat.live();
-            sprite.setScale(sf::Vector2f(float(cat.getSize()) / cat.getMaxSize(), float(cat.getSize()) / cat.getMaxSize()));
+            tam.live();
+            sprite.setScale(sf::Vector2f(float(tam.getSize()) / tam.getMaxSize(), float(tam.getSize()) / tam.getMaxSize()));
         }
 
         while (window.pollEvent(event)) 
         {
             std::chrono::duration<float> duration = std::chrono::high_resolution_clock::now() - startTime;
-            if (textureDuration > 0.0f) 
+            if (texDur > 0.0f)
             {
-                textureDuration -= duration.count();
-                if (textureDuration <= 0.0f) 
+                texDur -= duration.count();
+                if (texDur <= 0.0f)
                 {
-                    sprite.setTexture(texture1);
+                    sprite.setTexture(tex1);
                 }
             }
 
@@ -234,22 +219,22 @@ int main()
                 {
                     sf::Vector2i mousePos = sf::Mouse::getPosition(window);
 
-                    if (feedButton.isClicked(mousePos) && !isPaused) 
+                    if (feed.clicked(mousePos) && !isPaused) 
                     {
-                        cat.increaseFull(50);
-                        updateCatPicture(texture2, sprite, startTime, textureDuration);
+                        tam.increaseFull(200);
+                        upTamPic(tex2, sprite, startTime, texDur);
                     }
-                    if (washButton.isClicked(mousePos) && !isPaused) 
+                    if (wash.clicked(mousePos) && !isPaused) 
                     {
-                        cat.increaseClean(50);
-                        updateCatPicture(texture2, sprite, startTime, textureDuration);
+                        tam.increaseClean(200);
+                        upTamPic(tex2, sprite, startTime, texDur);
                     }
-                    if (drinkButton.isClicked(mousePos) && !isPaused) 
+                    if (drink.clicked(mousePos) && !isPaused) 
                     {
-                        cat.increaseHydr(50);
-                        updateCatPicture(texture2, sprite, startTime, textureDuration);
+                        tam.increaseHydr(200);
+                        upTamPic(tex2, sprite, startTime, texDur);
                     }
-                    if (pauseButton.isClicked(mousePos)) 
+                    if (pause.clicked(mousePos)) 
                     {
                         isPaused = !isPaused;
                     }
@@ -259,24 +244,24 @@ int main()
 
         Info info(
             {
-            {"Size", {cat.getSize(), cat.getMaxSize()}},
-            {"Fullness", {cat.getFull(), cat.getMaxFull()}},
-            {"Hydration", {cat.getHydr(), cat.getMaxHydr()}},
-            {"Cleanliness", {cat.getClean(), cat.getMaxClean()}}
+            {"Size", {tam.getSize(), tam.getMaxSize()}},
+            {"Fullness", {tam.getFull(), tam.getMaxFull()}},
+            {"Hydration", {tam.getHydr(), tam.getMaxHydr()}},
+            {"Cleanliness", {tam.getClean(), tam.getMaxClean()}}
             });
         text.setString(info.getStr());
 
-        window.clear(sf::Color::White);
+        window.clear(sf::Color(30, 30, 30));
         window.draw(sprite);
         window.draw(text);
         window.draw(iSize);
         window.draw(iFull);
         window.draw(iHydr);
         window.draw(iClean);
-        feedButton.draw(window);
-        washButton.draw(window);
-        drinkButton.draw(window);
-        pauseButton.draw(window);
+        feed.draw(window);
+        wash.draw(window);
+        drink.draw(window);
+        pause.draw(window);
         window.display();
     }
 

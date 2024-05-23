@@ -20,10 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cat.h">
+    <ClInclude Include="tam.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="info.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
