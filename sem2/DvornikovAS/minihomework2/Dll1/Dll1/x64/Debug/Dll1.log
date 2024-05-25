@@ -1,0 +1,6 @@
+﻿  dllmain.cpp
+C:\Users\myste\source\repos\Dll1\Dll1\dllmain.cpp(44,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/dllmain.cpp")
+  
+     Создается библиотека C:\Users\myste\source\repos\Dll1\x64\Debug\Dll1.lib и объект C:\Users\myste\source\repos\Dll1\x64\Debug\Dll1.exp
+  Dll1.vcxproj -> C:\Users\myste\source\repos\Dll1\x64\Debug\Dll1.dll

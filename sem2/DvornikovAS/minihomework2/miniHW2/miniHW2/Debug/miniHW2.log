@@ -1,0 +1,3 @@
+﻿  miniHW2.cpp
+C:\Users\myste\source\repos\miniHW2\miniHW2\miniHW2.cpp(27,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\myste\source\repos\Dll1\x64\Debug\Dll1.dll : fatal error LNK1107: недопустимый или поврежденный файл: не удается прочитать по 0x388
