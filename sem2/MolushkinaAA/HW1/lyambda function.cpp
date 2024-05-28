@@ -11,8 +11,6 @@ int main() {
 	char letter;
 	std::cout << "Enter any letter" << std::endl;
 	std::cin >> letter;
-    //for (std::vector<std::string>::const_iterator i = my_vec.begin(); i != my_vec.end(); i++) //чтение вектора
-    //    std::cout << *i << std::endl;
 	int result = count_if(my_vec.begin(), my_vec.end(), [letter](std::string s) {
 		return s[0] == letter;
 		});
