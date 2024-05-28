@@ -9,42 +9,100 @@ D:\C++\Tamagochi\main.cpp(46,59): warning C4244:         with
 D:\C++\Tamagochi\main.cpp(46,59): warning C4244:         [
 D:\C++\Tamagochi\main.cpp(46,59): warning C4244:             T=unsigned int
 D:\C++\Tamagochi\main.cpp(46,59): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(89,97): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-D:\C++\Tamagochi\main.cpp(89,97): warning C4244:         with
-D:\C++\Tamagochi\main.cpp(89,97): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(89,97): warning C4244:             T=unsigned int
-D:\C++\Tamagochi\main.cpp(89,97): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(89,58): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-D:\C++\Tamagochi\main.cpp(89,58): warning C4244:         with
-D:\C++\Tamagochi\main.cpp(89,58): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(89,58): warning C4244:             T=unsigned int
-D:\C++\Tamagochi\main.cpp(89,58): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(97,62): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-D:\C++\Tamagochi\main.cpp(97,62): warning C4244:         with
-D:\C++\Tamagochi\main.cpp(97,62): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(97,62): warning C4244:             T=unsigned int
-D:\C++\Tamagochi\main.cpp(97,62): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(97,38): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
-D:\C++\Tamagochi\main.cpp(97,38): warning C4244:         with
-D:\C++\Tamagochi\main.cpp(97,38): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(97,38): warning C4244:             T=unsigned int
-D:\C++\Tamagochi\main.cpp(97,38): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:         with
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:             T=int
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:         and
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:             T=float
-D:\C++\Tamagochi\main.cpp(136,100): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:         with
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:             T=int
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:         ]
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:         and
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:         [
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:             T=float
-D:\C++\Tamagochi\main.cpp(136,66): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(70,95): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(70,95): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(70,95): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(70,95): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(70,95): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(70,61): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(70,61): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(70,61): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(70,61): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(70,61): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(127,96): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(127,96): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(127,96): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(127,96): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(127,96): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(127,57): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(127,57): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(127,57): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(127,57): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(127,57): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(135,68): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(135,68): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(135,68): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(135,68): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(135,68): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(135,44): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(135,44): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(135,44): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(135,44): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(135,44): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(142,74): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(142,74): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(142,74): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(142,74): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(142,74): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(142,45): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(142,45): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(142,45): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(142,45): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(142,45): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(149,77): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(149,77): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(149,77): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(149,77): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(149,77): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(149,48): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(149,48): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(149,48): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(149,48): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(149,48): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(156,77): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(156,77): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(156,77): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(156,77): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(156,77): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(156,47): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(156,47): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(156,47): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(156,47): warning C4244:             T=unsigned int
+D:\C++\Tamagochi\main.cpp(156,47): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:             T=int
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:         and
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:             T=float
+D:\C++\Tamagochi\main.cpp(207,124): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:             T=int
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:         and
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:             T=float
+D:\C++\Tamagochi\main.cpp(207,90): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:             T=int
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:         and
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:             T=float
+D:\C++\Tamagochi\main.cpp(226,101): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:         with
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:             T=int
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:         ]
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:         and
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:         [
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:             T=float
+D:\C++\Tamagochi\main.cpp(226,67): warning C4244:         ]
   Tamagochi.vcxproj -> D:\C++\Tamagochi\x64\Debug\Tamagochi.exe

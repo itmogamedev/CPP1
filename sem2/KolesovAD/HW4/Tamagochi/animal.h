@@ -14,19 +14,19 @@ private:
 	const int maxClean;
 
 public:
-	Animal(int _speedGrowth,
-		int _full,
-		int _hydr,
-		int _clean
-	) : size{ 10 },
+	Animal(const int _speedGrowth,
+		const int _full,
+		const int _hydr,
+		const int _clean
+	) : size{ 5 },
 		speedGrowth{ _speedGrowth },
 		full{ _full },
 		hydr{ _hydr },
 		clean{ _clean },
 		maxSize{ 100 },
-		maxFull{ 100 },
-		maxHydr{ 750 },
-		maxClean{ 750 }
+		maxFull{ 50 },
+		maxHydr{ 150 },
+		maxClean{ 150 }
 	{
 
 	}
@@ -49,11 +49,11 @@ public:
 
 	void catGrow() {
 		if (maxFull <= full) {
-			full = 50;
+			full = 25;
 			increaseSize();
 		}
 		else if (0 >= full) {
-			full = 99;
+			full = 49;
 			decreaseSize();
 		}
 	}
@@ -61,13 +61,13 @@ public:
 	void increaseSize() { if (size < maxSize) size += speedGrowth; }
 	void decreaseSize() { if (size > 0) size -= speedGrowth; }
 
-	void increaseFull(const int value) { if (full < maxFull) full = std::min(full + value, maxFull); }
+	void increaseFull(const int value) { full = std::min(full + value, maxFull); }
 	void decreaseFull(const int value) { if (full > 0) full -= value; }
 
-	void increaseHydr(const int value) { if (hydr < maxHydr) hydr = std::min(hydr + value, maxHydr); }
+	void increaseHydr(const int value) { hydr = std::min(hydr + value, maxHydr); }
 	void decreaseHydr(const int value) { if (hydr > 0)  hydr -= value; }
 
-	void increaseClean(const int value) { if (clean < maxClean) clean = std::min(clean + value, maxClean); }
+	void increaseClean(const int value) { clean = std::min(clean + value, maxClean); }
 	void decreaseClean(const int value) { if (clean > 0)  clean -= value; }
 
 	const int getSpeedGrowth() { return speedGrowth; }
