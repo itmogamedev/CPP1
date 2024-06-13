@@ -1,0 +1,159 @@
+﻿  main.cpp
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(109,51): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(113,52): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(117,53): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(121,50): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(125,50): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(129,51): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(147,86): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(147,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(153,91): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(153,79): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(159,98): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(159,86): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(168,88): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(168,76): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(172,91): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(172,79): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(176,96): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(176,84): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(180,97): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(180,85): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\Project1\main.cpp(24,15): warning C4101: event: неиспользованная локальная переменная
+  Project1.vcxproj -> C:\Users\ivanm\123\cpp\sem2\KovalenkoIS\hw4\x64\Debug\Project1.exe
