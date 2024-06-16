@@ -39,14 +39,6 @@ void Game::init(const char* title, int xpos, int ypos, int wight, int hight, boo
 		isRunning = true;
 
 	}
-	/*else {
-		//isRunning = false;
-	} //Bilo tak, no chel ubral*/
-
-
-	/*SDL_Surface* tempSurface = IMG_Load("Assets/gg.png");
-	playerTex = SDL_CreateTextureFromSurface(renderer, tempSurface);
-	SDL_FreeSurface(tempSurface);*/
 }
 
 void Game::handleEvents()

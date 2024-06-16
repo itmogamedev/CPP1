@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
 				}
 				if (event.type == SDL_MOUSEMOTION) {
 					SDL_GetMouseState(&rect.x, &rect.y);
-					std::cout << rect.x << " " << rect.y << std::endl;
+					//std::cout << rect.x << " " << rect.y << std::endl;
 					if (rect.y >= 200 && rect.y <= 380) {
 						if (rect.x >= 50 && rect.x <= 240) {
 							catbut = true;
@@ -227,7 +227,7 @@ int main(int argc, char* argv[]) {
 				}
 				if (event.type == SDL_MOUSEMOTION) {
 					SDL_GetMouseState(&rect.x, &rect.y);
-					std::cout << rect.x << " " << rect.y << std::endl;
+					//std::cout << rect.x << " " << rect.y << std::endl;
 					if (rect.y >= 528 && rect.y <= 623) {
 						if (rect.x >= 432 && rect.x <= 527) {
 							if (didest.w >= 91) {
