@@ -1,0 +1,25 @@
+﻿  MathLibrary.cpp
+C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.cpp(6,7): warning C4273: average: несовместимое связывание dll
+  (компиляция исходного файла "/MathLibrary.cpp")
+  C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.h(9,34):
+  см. предыдущее определение "average"
+  
+C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.cpp(14,7): warning C4273: median: несовместимое связывание dll
+  (компиляция исходного файла "/MathLibrary.cpp")
+  C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.h(10,34):
+  см. предыдущее определение "median"
+  
+C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.cpp(18,27): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "/MathLibrary.cpp")
+  
+C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.cpp(25,7): warning C4273: dispersion: несовместимое связывание dll
+  (компиляция исходного файла "/MathLibrary.cpp")
+  C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.h(11,34):
+  см. предыдущее определение "dispersion"
+  
+C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.cpp(33,7): warning C4273: mean_square: несовместимое связывание dll
+  (компиляция исходного файла "/MathLibrary.cpp")
+  C:\Users\Анна\Documents\проекты visual studio\Dll1 library\MathLibrary.h(12,34):
+  см. предыдущее определение "mean_square"
+  
+  Dll1 library.vcxproj -> C:\Users\Анна\Documents\проекты visual studio\Dll1 library\x64\Debug\Dll1 library.dll
