@@ -1,0 +1,3 @@
+D:/ИТМО Работы/После перевода на ШРВ/Прога/CPlusPlus/CLion_Projects/MiniHomework2/cmake-build-debug/CMakeFiles/MiniHomework2.dir
+D:/ИТМО Работы/После перевода на ШРВ/Прога/CPlusPlus/CLion_Projects/MiniHomework2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ИТМО Работы/После перевода на ШРВ/Прога/CPlusPlus/CLion_Projects/MiniHomework2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
