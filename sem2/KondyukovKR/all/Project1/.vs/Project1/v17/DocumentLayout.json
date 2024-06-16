@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\progressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\progressBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F9A0AC9-9904-437E-9564-B2D6903BB98A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Button.h",
+              "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.h",
+              "RelativeDocumentMoniker": "Project1\\Button.h",
+              "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.h",
+              "RelativeToolTip": "Project1\\Button.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-21T21:25:34.842Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Button.cpp",
+              "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.cpp",
+              "RelativeDocumentMoniker": "Project1\\Button.cpp",
+              "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\Button.cpp",
+              "RelativeToolTip": "Project1\\Button.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-21T21:25:30.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "progressBar.h",
               "DocumentMoniker": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\progressBar.h",
               "RelativeDocumentMoniker": "Project1\\progressBar.h",
@@ -41,7 +74,7 @@
               "RelativeDocumentMoniker": "Project1\\main.cpp",
               "ToolTip": "C:\\Users\\pyuchy\\source\\repos\\CppProjects\\sem2\\KondyukovKR\\all\\Project1\\Project1\\main.cpp",
               "RelativeToolTip": "Project1\\main.cpp",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-27T08:00:43.23Z",
               "EditorCaption": ""
