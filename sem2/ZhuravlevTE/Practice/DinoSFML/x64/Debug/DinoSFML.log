@@ -1,0 +1,24 @@
+﻿  dinogame.cpp
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\character.h(8,2): warning C4369: "Direction::RIGHT": значение перечислителя "-1" не может быть представлено как "bool", значение — "-1"
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\character.h(62,25): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\character.h(63,28): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(24,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(52,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(67,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(111,35): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(111,29): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(815,123): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(818,125): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(821,126): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(859,109): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(862,111): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\wayna\source\repos\DinoSFML\DinoSFML\dinogame.cpp(865,112): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  DinoSFML.vcxproj -> C:\Users\wayna\source\repos\DinoSFML\x64\Debug\DinoSFML.exe
