@@ -1,0 +1,14 @@
+﻿  ShopMenu.cpp
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(53,9): warning C4996: 'sf::Text::setColor': объявлен deprecate
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(54,10): warning C4996: 'sf::Text::setColor': объявлен deprecate
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(173,24): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(173,21): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(174,27): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(174,21): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(175,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(175,24): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(176,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(176,21): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(177,29): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\pyuchy\source\repos\Cpp_Dino_project\ShopMenu.cpp(177,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Cpp_Dino_project.vcxproj -> C:\Users\pyuchy\source\repos\Cpp_Dino_project\x64\Debug\Cpp_Dino_project.exe

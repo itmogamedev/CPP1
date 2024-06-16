@@ -18,6 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cat.h">
@@ -26,5 +35,105 @@
     <ClInclude Include="info.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cat_eat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="cat_idle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="chin_eat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="chin_idle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="dog_eat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="dog_idle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="lose_menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause_menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="win_menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="menu_background.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="menu_play.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="menu_quit.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu_cat.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu_chin.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu_dog.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="choose_menu1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="clean_bar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="full_bar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="hydr_bar.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="clean.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="feed.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="water.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="continue.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="exit.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="pause_bg.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\.gitignore">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
   </ItemGroup>
 </Project>
