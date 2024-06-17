@@ -1,0 +1,10 @@
+Ñash: 0
+Dino STR DEX INT HP
+Triceratops 13 15 13 100
+Triceratops 13 15 13 100
+Triceratops 13 15 13 100
+Triceratops 13 15 13 100
+Diplodocus 15 19 23 70
+Diplodocus 12 27 24 100
+Diplodocus 12 27 24 100
+end 0 0 0 0
