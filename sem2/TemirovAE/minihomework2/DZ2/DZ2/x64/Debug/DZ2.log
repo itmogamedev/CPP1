@@ -1,0 +1,4 @@
+﻿  ╤ъюяшЁютрэю Їрщыют: 0.
+  DZ2.cpp
+C:\C++\DZ2\DZ2\DZ2.cpp(12,29): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+  DZ2.vcxproj -> C:\C++\DZ2\x64\Debug\DZ2.exe

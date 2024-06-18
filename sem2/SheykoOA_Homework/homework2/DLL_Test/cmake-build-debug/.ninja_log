@@ -1,0 +1,11 @@
+# ninja log v5
+4	534	7328277917063847	CMakeFiles/DLL_Test.dir/MathService.cpp.obj	c91fef3e5d7016c2
+0	449	7328281508499615	build.ninja	64d29a215df868aa
+482	553	7328277414651569	libDLL_Test.a	d5e48fc58f90a516
+0	8	0	clean	d24b9065f11d2868
+534	862	7328277920295188	libDLL_Test.dll	9fb1a4c0519b0e4f
+534	862	7328277920295188	libDLL_Test.dll.a	9fb1a4c0519b0e4f
+0	166	7328281508499615	build.ninja	64d29a215df868aa
+1	433	7328281513579446	CMakeFiles/MathServiceLib.dir/MathService.cpp.obj	173197b2626c60f6
+434	542	7328281514633013	libMathServiceLib.dll	cde14faec5bba8d6
+434	542	7328281514633013	libMathServiceLib.dll.a	cde14faec5bba8d6

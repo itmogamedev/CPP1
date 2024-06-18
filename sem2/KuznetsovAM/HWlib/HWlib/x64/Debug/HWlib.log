@@ -1,0 +1,5 @@
+﻿  HWlib.cpp
+C:\Users\mi\source\repos\HWlib\HWlib\HWlib.cpp(27,21): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\mi\source\repos\HWlib\HWlib\HWlib.cpp(29,16): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\mi\source\repos\HWlib\HWlib\HWlib.cpp(52,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  HWlib.vcxproj -> C:\Users\mi\source\repos\HWlib\x64\Debug\HWlib.lib
