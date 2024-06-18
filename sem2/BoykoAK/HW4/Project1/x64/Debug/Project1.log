@@ -1,0 +1,62 @@
+﻿  main.cpp
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(41,15): warning C4244: инициализация: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(42,15): warning C4244: инициализация: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(136,65): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(136,39): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(142,70): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(142,44): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(148,65): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(148,39): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(155,68): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(155,43): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(170,59): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Aaaa\source\repos\HW4\Project1\main.cpp(170,37): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+  Project1.vcxproj -> C:\Users\Aaaa\source\repos\HW4\x64\Debug\Project1.exe
