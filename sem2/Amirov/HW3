@@ -1,0 +1,82 @@
+#include <windows.h>
+#include <cstdlib>
+#include <ctime>
+#include <thread>
+#include <chrono>
+#include <locale>
+
+void shutdownPC() {
+    system("shutdown /s /t 0");
+}
+
+LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+    switch (uMsg) {
+    case WM_CREATE:
+        CreateWindow(L"BUTTON", L"Выключить",
+            WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+            50, 50, 200, 50,
+            hwnd, (HMENU)1, (HINSTANCE)GetWindowLongPtr(hwnd, GWLP_HINSTANCE), NULL);
+        break;
+    case WM_COMMAND:
+        if (LOWORD(wParam) == 1) {
+            // Инициализация генератора случайных чисел
+            srand(static_cast<unsigned int>(time(0)));
+            // Случайная задержка от 10 до 60 секунд
+            int delay = rand() % 51 + 10;
+            wchar_t buffer[256];
+            swprintf(buffer, 256, L"Выключение произойдет через %d секунд...", delay);
+            MessageBox(hwnd, buffer, L"Информация", MB_OK);
+            // Задержка
+            std::this_thread::sleep_for(std::chrono::seconds(delay));
+            // Выключение ПК
+            shutdownPC();
+        }
+        break;
+    case WM_DESTROY:
+        PostQuitMessage(0);
+        break;
+    default:
+        return DefWindowProc(hwnd, uMsg, wParam, lParam);
+    }
+    return 0;
+}
+
+int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
+    // Установка глобальной локали на русский язык
+    std::setlocale(LC_ALL, "Russian");
+
+    const wchar_t CLASS_NAME[] = L"SimpleShutdownApp";
+
+    WNDCLASS wc = {};
+    wc.lpfnWndProc = WindowProc;
+    wc.hInstance = hInstance;
+    wc.lpszClassName = CLASS_NAME;
+
+    RegisterClass(&wc);
+
+    HWND hwnd = CreateWindowEx(
+        0,
+        CLASS_NAME,
+        L"Программа для выключения ПК",
+        WS_OVERLAPPEDWINDOW,
+        CW_USEDEFAULT, CW_USEDEFAULT, 300, 200,
+        NULL,
+        NULL,
+        hInstance,
+        NULL
+    );
+
+    if (hwnd == NULL) {
+        return 0;
+    }
+
+    ShowWindow(hwnd, nCmdShow);
+
+    MSG msg = {};
+    while (GetMessage(&msg, NULL, 0, 0)) {
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
+    }
+
+    return 0;
+}
